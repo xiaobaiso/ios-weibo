@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "XBTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,34 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    UITabBarController *tabBarVc = [[UITabBarController alloc] init];
-    tabBarVc.view.backgroundColor = [UIColor redColor];
+    XBTabBarController *tabBarVc = [[XBTabBarController alloc] init];
+   // tabBarVc.view.backgroundColor = [UIColor redColor];
     
-    UIViewController *home = [[UIViewController alloc] init];
-    home.view.backgroundColor = [UIColor yellowColor];
-    [tabBarVc addChildViewController:home];
-    
-    UIViewController *message = [[UIViewController alloc] init];
-    message.view.backgroundColor = [UIColor grayColor];
-    [tabBarVc addChildViewController:message];
-    
-    UIViewController *discover = [[UIViewController alloc] init];
-    message.view.backgroundColor = [UIColor blackColor];
-    [tabBarVc addChildViewController:discover];
-    
-    UIViewController *profile = [[UIViewController alloc] init];
-    profile.view.backgroundColor = [UIColor greenColor];
-    [tabBarVc addChildViewController:profile];
-    
+       
     self.window.rootViewController = tabBarVc;
     [self.window makeKeyAndVisible];
     
-    
-    
-    
     return YES;
-    
-    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

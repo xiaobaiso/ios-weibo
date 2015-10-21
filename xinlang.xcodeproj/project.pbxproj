@@ -12,6 +12,8 @@
 		03A92B161BD75DDD00ECACE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A92B151BD75DDD00ECACE2 /* Images.xcassets */; };
 		03A92B191BD75DDD00ECACE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A92B171BD75DDD00ECACE2 /* LaunchScreen.xib */; };
 		03A92B251BD75DDD00ECACE2 /* xinlangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A92B241BD75DDD00ECACE2 /* xinlangTests.m */; };
+		03A92B301BD7679D00ECACE2 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A92B2F1BD7679D00ECACE2 /* UIImage+Image.m */; };
+		03A92B391BD769BB00ECACE2 /* XBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A92B381BD769BB00ECACE2 /* XBTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,10 @@
 		03A92B1E1BD75DDD00ECACE2 /* xinlangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xinlangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A92B231BD75DDD00ECACE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A92B241BD75DDD00ECACE2 /* xinlangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xinlangTests.m; sourceTree = "<group>"; };
+		03A92B2E1BD7679D00ECACE2 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		03A92B2F1BD7679D00ECACE2 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		03A92B371BD769BB00ECACE2 /* XBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBTabBarController.h; sourceTree = "<group>"; };
+		03A92B381BD769BB00ECACE2 /* XBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		03A92AFC1BD75DDD00ECACE2 = {
 			isa = PBXGroup;
 			children = (
+				03A92B371BD769BB00ECACE2 /* XBTabBarController.h */,
+				03A92B381BD769BB00ECACE2 /* XBTabBarController.m */,
 				03A92B071BD75DDD00ECACE2 /* xinlang */,
 				03A92B211BD75DDD00ECACE2 /* xinlangTests */,
 				03A92B061BD75DDD00ECACE2 /* Products */,
@@ -76,6 +84,8 @@
 		03A92B071BD75DDD00ECACE2 /* xinlang */ = {
 			isa = PBXGroup;
 			children = (
+				03A92B2E1BD7679D00ECACE2 /* UIImage+Image.h */,
+				03A92B2F1BD7679D00ECACE2 /* UIImage+Image.m */,
 				03A92B0C1BD75DDD00ECACE2 /* AppDelegate.h */,
 				03A92B0D1BD75DDD00ECACE2 /* AppDelegate.m */,
 				03A92B151BD75DDD00ECACE2 /* Images.xcassets */,
@@ -210,6 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A92B301BD7679D00ECACE2 /* UIImage+Image.m in Sources */,
+				03A92B391BD769BB00ECACE2 /* XBTabBarController.m in Sources */,
 				03A92B0E1BD75DDD00ECACE2 /* AppDelegate.m in Sources */,
 				03A92B0B1BD75DDD00ECACE2 /* main.m in Sources */,
 			);
