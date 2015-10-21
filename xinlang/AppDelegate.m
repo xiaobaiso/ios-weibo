@@ -16,12 +16,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // 创建窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     XBTabBarController *tabBarVc = [[XBTabBarController alloc] init];
    // tabBarVc.view.backgroundColor = [UIColor redColor];
     
-       
+    // 设置窗口的根控制器       
     self.window.rootViewController = tabBarVc;
+    // 显示窗口
     [self.window makeKeyAndVisible];
     
     return YES;
