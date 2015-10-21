@@ -7,7 +7,7 @@
 //
 
 #import "XBTabBarController.h"
-
+#import "UIImage+Image.h"
 @interface XBTabBarController ()
 
 @end
@@ -22,6 +22,9 @@
 }
 
 #pragma 再次进行封装
+
+// 在ios7之后，默认会把UITabBar上面的按钮图片渲染成蓝色 使用分类能够解决这个问题
+// tabBarItem:决定着tabBars上按钮的内容
 -(void)addAllChildViewController{
 
     UIViewController *home = [[UIViewController alloc] init];
@@ -50,8 +53,8 @@
 {
     UIViewController *controller = vc;
     controller.tabBarItem.title = name;
-    controller.tabBarItem.image = [UIImage imageNamed:image];
-    controller.tabBarItem.selectedImage = [UIImage imageNamed:selectImage];;
+    controller.tabBarItem.image = [UIImage imageWithOriginalName:image];//这里用的就是真实地颜色了`
+    controller.tabBarItem.selectedImage = [UIImage imageWithOriginalName:selectImage];;
     controller.tabBarItem.badgeValue = [NSString stringWithFormat:@"%ld",value];
 }
 
