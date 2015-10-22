@@ -7,25 +7,29 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>8C26B88F-869A-4217-8E20-89E6D4E47E06</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>xinlang</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</key>
 		<string>gitlab.com:xiaobaiso/myios.git</string>
+		<key>7B845BE3FA126633FF031E8D6AEF612DA7930E2A</key>
+		<string>https://github.com/xiaobaiso/ios-weibo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>xinlang/xinlang.xcodeproj/project.xcworkspace</string>
+	<string>xinlang.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</key>
 		<string>../../..</string>
+		<key>7B845BE3FA126633FF031E8D6AEF612DA7930E2A</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>gitlab.com:xiaobaiso/myios.git</string>
+	<string>https://github.com/xiaobaiso/ios-weibo.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</string>
+	<string>7B845BE3FA126633FF031E8D6AEF612DA7930E2A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</string>
 			<key>IDESourceControlWCCName</key>
-			<string>workspace</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7B845BE3FA126633FF031E8D6AEF612DA7930E2A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>xinlang</string>
 		</dict>
 	</array>
 </dict>

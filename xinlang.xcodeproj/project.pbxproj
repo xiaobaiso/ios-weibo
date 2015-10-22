@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039926D21BD7DA9D006498F1 /* XBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 039926D11BD7DA9D006498F1 /* XBTabBar.m */; };
 		03A92B0B1BD75DDD00ECACE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A92B0A1BD75DDD00ECACE2 /* main.m */; };
 		03A92B0E1BD75DDD00ECACE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A92B0D1BD75DDD00ECACE2 /* AppDelegate.m */; };
 		03A92B161BD75DDD00ECACE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A92B151BD75DDD00ECACE2 /* Images.xcassets */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039926D01BD7DA9D006498F1 /* XBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBTabBar.h; sourceTree = "<group>"; };
+		039926D11BD7DA9D006498F1 /* XBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBTabBar.m; sourceTree = "<group>"; };
 		03A92B051BD75DDD00ECACE2 /* xinlang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xinlang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A92B091BD75DDD00ECACE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A92B0A1BD75DDD00ECACE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 		03A92AFC1BD75DDD00ECACE2 = {
 			isa = PBXGroup;
 			children = (
+				039926D01BD7DA9D006498F1 /* XBTabBar.h */,
+				039926D11BD7DA9D006498F1 /* XBTabBar.m */,
 				03A92B371BD769BB00ECACE2 /* XBTabBarController.h */,
 				03A92B381BD769BB00ECACE2 /* XBTabBarController.m */,
 				03A92B071BD75DDD00ECACE2 /* xinlang */,
@@ -220,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039926D21BD7DA9D006498F1 /* XBTabBar.m in Sources */,
 				03A92B301BD7679D00ECACE2 /* UIImage+Image.m in Sources */,
 				03A92B391BD769BB00ECACE2 /* XBTabBarController.m in Sources */,
 				03A92B0E1BD75DDD00ECACE2 /* AppDelegate.m in Sources */,
@@ -412,6 +418,7 @@
 				03A92B2A1BD75DDD00ECACE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03A92B2B1BD75DDD00ECACE2 /* Build configuration list for PBXNativeTarget "xinlangTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				03A92B2D1BD75DDD00ECACE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
