@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		039926D21BD7DA9D006498F1 /* XBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 039926D11BD7DA9D006498F1 /* XBTabBar.m */; };
-		03A92B0B1BD75DDD00ECACE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A92B0A1BD75DDD00ECACE2 /* main.m */; };
-		03A92B0E1BD75DDD00ECACE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A92B0D1BD75DDD00ECACE2 /* AppDelegate.m */; };
-		03A92B161BD75DDD00ECACE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A92B151BD75DDD00ECACE2 /* Images.xcassets */; };
-		03A92B191BD75DDD00ECACE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A92B171BD75DDD00ECACE2 /* LaunchScreen.xib */; };
+		0327CD1B1BD93FF100B71B69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0327CD021BD93FF100B71B69 /* Images.xcassets */; };
+		0327CD1C1BD93FF100B71B69 /* XBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327CD061BD93FF100B71B69 /* XBTabBarController.m */; };
+		0327CD1D1BD93FF100B71B69 /* XBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327CD0A1BD93FF100B71B69 /* XBTabBar.m */; };
+		0327CD1E1BD93FF100B71B69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327CD111BD93FF100B71B69 /* AppDelegate.m */; };
+		0327CD1F1BD93FF100B71B69 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327CD141BD93FF100B71B69 /* UIImage+Image.m */; };
+		0327CD201BD93FF100B71B69 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0327CD151BD93FF100B71B69 /* Info.plist */; };
+		0327CD211BD93FF100B71B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327CD161BD93FF100B71B69 /* main.m */; };
+		0327CD251BD93FFA00B71B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0327CD231BD93FF900B71B69 /* Main.storyboard */; };
 		03A92B251BD75DDD00ECACE2 /* xinlangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A92B241BD75DDD00ECACE2 /* xinlangTests.m */; };
-		03A92B301BD7679D00ECACE2 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A92B2F1BD7679D00ECACE2 /* UIImage+Image.m */; };
-		03A92B391BD769BB00ECACE2 /* XBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A92B381BD769BB00ECACE2 /* XBTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,22 +29,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		039926D01BD7DA9D006498F1 /* XBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBTabBar.h; sourceTree = "<group>"; };
-		039926D11BD7DA9D006498F1 /* XBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBTabBar.m; sourceTree = "<group>"; };
+		0327CD021BD93FF100B71B69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Classes/Images.xcassets; sourceTree = "<group>"; };
+		0327CD051BD93FF100B71B69 /* XBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBTabBarController.h; sourceTree = "<group>"; };
+		0327CD061BD93FF100B71B69 /* XBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBTabBarController.m; sourceTree = "<group>"; };
+		0327CD091BD93FF100B71B69 /* XBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBTabBar.h; sourceTree = "<group>"; };
+		0327CD0A1BD93FF100B71B69 /* XBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBTabBar.m; sourceTree = "<group>"; };
+		0327CD101BD93FF100B71B69 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0327CD111BD93FF100B71B69 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0327CD131BD93FF100B71B69 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		0327CD141BD93FF100B71B69 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		0327CD151BD93FF100B71B69 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0327CD161BD93FF100B71B69 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0327CD241BD93FF900B71B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		03A92B051BD75DDD00ECACE2 /* xinlang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xinlang.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		03A92B091BD75DDD00ECACE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03A92B0A1BD75DDD00ECACE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		03A92B0C1BD75DDD00ECACE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		03A92B0D1BD75DDD00ECACE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		03A92B151BD75DDD00ECACE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		03A92B181BD75DDD00ECACE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		03A92B1E1BD75DDD00ECACE2 /* xinlangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xinlangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A92B231BD75DDD00ECACE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03A92B241BD75DDD00ECACE2 /* xinlangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xinlangTests.m; sourceTree = "<group>"; };
-		03A92B2E1BD7679D00ECACE2 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
-		03A92B2F1BD7679D00ECACE2 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
-		03A92B371BD769BB00ECACE2 /* XBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBTabBarController.h; sourceTree = "<group>"; };
-		03A92B381BD769BB00ECACE2 /* XBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +65,213 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0327CCF91BD93FF100B71B69 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0327CCFA1BD93FF100B71B69 /* Discover */,
+				0327CCFE1BD93FF100B71B69 /* Home */,
+				0327CD031BD93FF100B71B69 /* Main */,
+				0327CD0B1BD93FF100B71B69 /* Message */,
+				0327CD0F1BD93FF100B71B69 /* Other */,
+				0327CD171BD93FF100B71B69 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0327CCFA1BD93FF100B71B69 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				0327CCFB1BD93FF100B71B69 /* Controller */,
+				0327CCFC1BD93FF100B71B69 /* Model */,
+				0327CCFD1BD93FF100B71B69 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		0327CCFB1BD93FF100B71B69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0327CCFC1BD93FF100B71B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0327CCFD1BD93FF100B71B69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0327CCFE1BD93FF100B71B69 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0327CCFF1BD93FF100B71B69 /* Controller */,
+				0327CD001BD93FF100B71B69 /* Model */,
+				0327CD011BD93FF100B71B69 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0327CCFF1BD93FF100B71B69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0327CD001BD93FF100B71B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0327CD011BD93FF100B71B69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0327CD031BD93FF100B71B69 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0327CD041BD93FF100B71B69 /* Controller */,
+				0327CD071BD93FF100B71B69 /* Model */,
+				0327CD081BD93FF100B71B69 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0327CD041BD93FF100B71B69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0327CD051BD93FF100B71B69 /* XBTabBarController.h */,
+				0327CD061BD93FF100B71B69 /* XBTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0327CD071BD93FF100B71B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0327CD081BD93FF100B71B69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0327CD091BD93FF100B71B69 /* XBTabBar.h */,
+				0327CD0A1BD93FF100B71B69 /* XBTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0327CD0B1BD93FF100B71B69 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				0327CD0C1BD93FF100B71B69 /* Controller */,
+				0327CD0D1BD93FF100B71B69 /* Model */,
+				0327CD0E1BD93FF100B71B69 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		0327CD0C1BD93FF100B71B69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0327CD0D1BD93FF100B71B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0327CD0E1BD93FF100B71B69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0327CD0F1BD93FF100B71B69 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0327CD101BD93FF100B71B69 /* AppDelegate.h */,
+				0327CD111BD93FF100B71B69 /* AppDelegate.m */,
+				0327CD121BD93FF100B71B69 /* Category */,
+				0327CD151BD93FF100B71B69 /* Info.plist */,
+				0327CD161BD93FF100B71B69 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0327CD121BD93FF100B71B69 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0327CD131BD93FF100B71B69 /* UIImage+Image.h */,
+				0327CD141BD93FF100B71B69 /* UIImage+Image.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0327CD171BD93FF100B71B69 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0327CD181BD93FF100B71B69 /* Controller */,
+				0327CD191BD93FF100B71B69 /* Model */,
+				0327CD1A1BD93FF100B71B69 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0327CD181BD93FF100B71B69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0327CD191BD93FF100B71B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0327CD1A1BD93FF100B71B69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0327CD221BD93FF900B71B69 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				0327CD231BD93FF900B71B69 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 		03A92AFC1BD75DDD00ECACE2 = {
 			isa = PBXGroup;
 			children = (
-				039926D01BD7DA9D006498F1 /* XBTabBar.h */,
-				039926D11BD7DA9D006498F1 /* XBTabBar.m */,
-				03A92B371BD769BB00ECACE2 /* XBTabBarController.h */,
-				03A92B381BD769BB00ECACE2 /* XBTabBarController.m */,
-				03A92B071BD75DDD00ECACE2 /* xinlang */,
+				0327CD221BD93FF900B71B69 /* Base.lproj */,
+				0327CCF91BD93FF100B71B69 /* Classes */,
+				0327CD021BD93FF100B71B69 /* Images.xcassets */,
 				03A92B211BD75DDD00ECACE2 /* xinlangTests */,
 				03A92B061BD75DDD00ECACE2 /* Products */,
 			);
@@ -84,29 +284,6 @@
 				03A92B1E1BD75DDD00ECACE2 /* xinlangTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		03A92B071BD75DDD00ECACE2 /* xinlang */ = {
-			isa = PBXGroup;
-			children = (
-				03A92B2E1BD7679D00ECACE2 /* UIImage+Image.h */,
-				03A92B2F1BD7679D00ECACE2 /* UIImage+Image.m */,
-				03A92B0C1BD75DDD00ECACE2 /* AppDelegate.h */,
-				03A92B0D1BD75DDD00ECACE2 /* AppDelegate.m */,
-				03A92B151BD75DDD00ECACE2 /* Images.xcassets */,
-				03A92B171BD75DDD00ECACE2 /* LaunchScreen.xib */,
-				03A92B081BD75DDD00ECACE2 /* Supporting Files */,
-			);
-			path = xinlang;
-			sourceTree = "<group>";
-		};
-		03A92B081BD75DDD00ECACE2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				03A92B091BD75DDD00ECACE2 /* Info.plist */,
-				03A92B0A1BD75DDD00ECACE2 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		03A92B211BD75DDD00ECACE2 /* xinlangTests */ = {
@@ -206,8 +383,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A92B191BD75DDD00ECACE2 /* LaunchScreen.xib in Resources */,
-				03A92B161BD75DDD00ECACE2 /* Images.xcassets in Resources */,
+				0327CD251BD93FFA00B71B69 /* Main.storyboard in Resources */,
+				0327CD201BD93FF100B71B69 /* Info.plist in Resources */,
+				0327CD1B1BD93FF100B71B69 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,11 +403,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039926D21BD7DA9D006498F1 /* XBTabBar.m in Sources */,
-				03A92B301BD7679D00ECACE2 /* UIImage+Image.m in Sources */,
-				03A92B391BD769BB00ECACE2 /* XBTabBarController.m in Sources */,
-				03A92B0E1BD75DDD00ECACE2 /* AppDelegate.m in Sources */,
-				03A92B0B1BD75DDD00ECACE2 /* main.m in Sources */,
+				0327CD211BD93FF100B71B69 /* main.m in Sources */,
+				0327CD1C1BD93FF100B71B69 /* XBTabBarController.m in Sources */,
+				0327CD1F1BD93FF100B71B69 /* UIImage+Image.m in Sources */,
+				0327CD1D1BD93FF100B71B69 /* XBTabBar.m in Sources */,
+				0327CD1E1BD93FF100B71B69 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,12 +430,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		03A92B171BD75DDD00ECACE2 /* LaunchScreen.xib */ = {
+		0327CD231BD93FF900B71B69 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03A92B181BD75DDD00ECACE2 /* Base */,
+				0327CD241BD93FF900B71B69 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -348,7 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = xinlang/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Classes/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,7 +537,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = xinlang/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Classes/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
