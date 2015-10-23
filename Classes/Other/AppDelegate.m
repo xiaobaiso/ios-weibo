@@ -12,6 +12,8 @@
 
 @end
 
+#pragma 程序遇见模拟器尺寸不对，即上下都有黑边，那就是启动图片的问题，即默认的模拟器大小由启动图片决定
+
 @implementation AppDelegate
 
 

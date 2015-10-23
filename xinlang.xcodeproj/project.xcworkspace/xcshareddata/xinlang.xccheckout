@@ -10,8 +10,6 @@
 	<string>xinlang</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</key>
-		<string>gitlab.com:xiaobaiso/myios.git</string>
 		<key>7B845BE3FA126633FF031E8D6AEF612DA7930E2A</key>
 		<string>https://github.com/xiaobaiso/ios-weibo.git</string>
 	</dict>
@@ -19,8 +17,6 @@
 	<string>xinlang.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</key>
-		<string>../../..</string>
 		<key>7B845BE3FA126633FF031E8D6AEF612DA7930E2A</key>
 		<string>../..</string>
 	</dict>
@@ -36,17 +32,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</string>
-			<key>IDESourceControlWCCName</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>7B845BE3FA126633FF031E8D6AEF612DA7930E2A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>xinlang</string>
+			<string>ios-weibo%E5%89%AF%E6%9C%AC</string>
 		</dict>
 	</array>
 </dict>

@@ -9,7 +9,7 @@
 #import "XBTabBarController.h"
 #import "UIImage+Image.h"
 #import "XBTabBar.h"
-
+#import "XBDiscoverController.h"
 
 @interface XBTabBarController ()
 
@@ -34,18 +34,18 @@
 
 //不清楚这个是在干啥
 
-//+ (void)initialize{
-//    
-//    // 获取当前这个类下面的所有tabBarItem
-//    UITabBarItem *item = [UITabBarItem appearanceWhenContainedIn:self, nil];
-//    
-//    NSMutableDictionary *att = [NSMutableDictionary dictionary];
-//    att[NSForegroundColorAttributeName] = [UIColor orangeColor];
-//    //    [att setObject:[UIColor orangeColor] forKey:NSForegroundColorAttributeName];
-//    
-//    [item setTitleTextAttributes:att forState:UIControlStateSelected];
-//    
-//}
++ (void)initialize{
+    
+    // 获取当前这个类下面的所有tabBarItem
+    UITabBarItem *item = [UITabBarItem appearanceWhenContainedIn:self, nil];
+    
+    NSMutableDictionary *att = [NSMutableDictionary dictionary];
+    att[NSForegroundColorAttributeName] = [UIColor orangeColor];
+    //    [att setObject:[UIColor orangeColor] forKey:NSForegroundColorAttributeName];
+    
+    [item setTitleTextAttributes:att forState:UIControlStateSelected];
+    
+}
 
 
 #pragma 再次进行封装
@@ -64,7 +64,7 @@
     [self setUpOneChildViewControllerWithController:message andName:@"消息" andImage:@"tabbar_message_center" selectImage:@"tabbar_message_center_selected" andValue:33];
     [self addChildViewController:message];
     
-    UIViewController *discover = [[UIViewController alloc] init];
+    XBDiscoverController *discover = [[XBDiscoverController alloc] init];
     discover.view.backgroundColor = [UIColor blackColor];
     [self setUpOneChildViewControllerWithController:discover andName:@"发现" andImage:@"tabbar_discover" selectImage:@"tabbar_discover_selected" andValue:5];
     [self addChildViewController:discover];

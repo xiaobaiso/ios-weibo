@@ -15,6 +15,10 @@
 		0327CD201BD93FF100B71B69 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0327CD151BD93FF100B71B69 /* Info.plist */; };
 		0327CD211BD93FF100B71B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327CD161BD93FF100B71B69 /* main.m */; };
 		0327CD251BD93FFA00B71B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0327CD231BD93FF900B71B69 /* Main.storyboard */; };
+		0399D25E1BD9D77C00CEF303 /* XBDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0399D25D1BD9D77C00CEF303 /* XBDiscoverController.m */; };
+		0399D2611BD9D7B200CEF303 /* XBSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0399D2601BD9D7B200CEF303 /* XBSearchBar.m */; };
+		0399D2641BDA05DF00CEF303 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0399D2631BDA05DF00CEF303 /* UIView+Frame.m */; };
+		0399D2671BDA0CA600CEF303 /* XBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0399D2661BDA0CA600CEF303 /* XBNavigationController.m */; };
 		03A92B251BD75DDD00ECACE2 /* xinlangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A92B241BD75DDD00ECACE2 /* xinlangTests.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +45,14 @@
 		0327CD151BD93FF100B71B69 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0327CD161BD93FF100B71B69 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0327CD241BD93FF900B71B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		0399D25C1BD9D77C00CEF303 /* XBDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDiscoverController.h; sourceTree = "<group>"; };
+		0399D25D1BD9D77C00CEF303 /* XBDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBDiscoverController.m; sourceTree = "<group>"; };
+		0399D25F1BD9D7B200CEF303 /* XBSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSearchBar.h; sourceTree = "<group>"; };
+		0399D2601BD9D7B200CEF303 /* XBSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSearchBar.m; sourceTree = "<group>"; };
+		0399D2621BDA05DF00CEF303 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		0399D2631BDA05DF00CEF303 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		0399D2651BDA0CA600CEF303 /* XBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBNavigationController.h; sourceTree = "<group>"; };
+		0399D2661BDA0CA600CEF303 /* XBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBNavigationController.m; sourceTree = "<group>"; };
 		03A92B051BD75DDD00ECACE2 /* xinlang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xinlang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A92B1E1BD75DDD00ECACE2 /* xinlangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xinlangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A92B231BD75DDD00ECACE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +103,8 @@
 		0327CCFB1BD93FF100B71B69 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0399D25C1BD9D77C00CEF303 /* XBDiscoverController.h */,
+				0399D25D1BD9D77C00CEF303 /* XBDiscoverController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -105,6 +119,8 @@
 		0327CCFD1BD93FF100B71B69 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0399D25F1BD9D7B200CEF303 /* XBSearchBar.h */,
+				0399D2601BD9D7B200CEF303 /* XBSearchBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,6 +171,8 @@
 			children = (
 				0327CD051BD93FF100B71B69 /* XBTabBarController.h */,
 				0327CD061BD93FF100B71B69 /* XBTabBarController.m */,
+				0399D2651BDA0CA600CEF303 /* XBNavigationController.h */,
+				0399D2661BDA0CA600CEF303 /* XBNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -223,6 +241,8 @@
 			children = (
 				0327CD131BD93FF100B71B69 /* UIImage+Image.h */,
 				0327CD141BD93FF100B71B69 /* UIImage+Image.m */,
+				0399D2621BDA05DF00CEF303 /* UIView+Frame.h */,
+				0399D2631BDA05DF00CEF303 /* UIView+Frame.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -403,11 +423,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0399D2641BDA05DF00CEF303 /* UIView+Frame.m in Sources */,
+				0399D25E1BD9D77C00CEF303 /* XBDiscoverController.m in Sources */,
 				0327CD211BD93FF100B71B69 /* main.m in Sources */,
 				0327CD1C1BD93FF100B71B69 /* XBTabBarController.m in Sources */,
 				0327CD1F1BD93FF100B71B69 /* UIImage+Image.m in Sources */,
 				0327CD1D1BD93FF100B71B69 /* XBTabBar.m in Sources */,
+				0399D2671BDA0CA600CEF303 /* XBNavigationController.m in Sources */,
 				0327CD1E1BD93FF100B71B69 /* AppDelegate.m in Sources */,
+				0399D2611BD9D7B200CEF303 /* XBSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
