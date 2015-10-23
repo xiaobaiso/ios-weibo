@@ -7,14 +7,69 @@
 //
 
 #import "XBTabBar.h"
-
+#import "XBTabBarButton.h"
 @interface XBTabBar ()
 
 @property (nonatomic,weak) UIButton *plusButton;
+@property (nonatomic,strong)NSMutableArray *buttons;
+@property (nonatomic,weak)UIButton *selectedButton;
 
 @end
 
 @implementation XBTabBar
+
+-(NSMutableArray *)buttons
+{
+    if (_buttons == nil) {
+        _buttons = [NSMutableArray array];
+    }
+    return _buttons;
+}
+
+
+- (void)setItems:(NSArray *)items
+{
+    //NSLog(@"tell me %d",items.count);
+    _items = items;
+    for (UITabBarItem *item in _items) {
+        XBTabBarButton *btn = [XBTabBarButton buttonWithType:UIButtonTypeCustom];
+        btn.item = item;
+        btn.tag = self.buttons.count;
+        [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+        
+        if (btn.tag == 0) {
+            [self btnClick:btn];
+            
+        }
+        [self addSubview:btn];
+        [self.buttons addObject:btn];
+    }
+    
+    
+}
+
+
+-(void)btnClick:(UIButton *)button
+{
+    self.selectedButton.selected = NO;
+    self.selectedButton = button;
+    self.selectedButton.selected = YES;
+    
+    if ([self.delegate respondsToSelector:@selector(tabBar:didClickButton:)]) {
+        [self.delegate tabBar:self didClickButton:button.tag];
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 - (UIButton *)plusButton
 {
@@ -38,7 +93,8 @@
 
 //这里应该是5个  说明self.items.count = 4
 -(void)layoutSubviews{
-    NSLog(@"fun:%s   num:%d",__func__,self.items.count);
+
+    [super layoutSubviews];
     CGFloat w = self.bounds.size.width;
     CGFloat h = self.bounds.size.height;
     
@@ -48,8 +104,8 @@
     CGFloat btnY = 0;
     
     int i = 0;
-    for (UIView *tabBarButton in self.subviews) {
-        if ([tabBarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
+    for (UIView *tabBarButton in self.buttons) {
+     //   if ([tabBarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
             if (i == 2) {
                 i = 3;
             }
@@ -57,8 +113,8 @@
             tabBarButton.frame = CGRectMake(btnX, btnY, btnW, btnH);
             
             i++;
-        }
-
+     //   }
+        NSLog(@"aha");
     }
     self.plusButton.center = CGPointMake(0.5*w, 0.5*h);
 }

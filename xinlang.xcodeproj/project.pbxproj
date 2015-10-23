@@ -19,6 +19,7 @@
 		0399D2611BD9D7B200CEF303 /* XBSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0399D2601BD9D7B200CEF303 /* XBSearchBar.m */; };
 		0399D2641BDA05DF00CEF303 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0399D2631BDA05DF00CEF303 /* UIView+Frame.m */; };
 		0399D2671BDA0CA600CEF303 /* XBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0399D2661BDA0CA600CEF303 /* XBNavigationController.m */; };
+		0399D26D1BDA1AD800CEF303 /* XBTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0399D26C1BDA1AD800CEF303 /* XBTabBarButton.m */; };
 		03A92B251BD75DDD00ECACE2 /* xinlangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A92B241BD75DDD00ECACE2 /* xinlangTests.m */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		0399D2631BDA05DF00CEF303 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		0399D2651BDA0CA600CEF303 /* XBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBNavigationController.h; sourceTree = "<group>"; };
 		0399D2661BDA0CA600CEF303 /* XBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBNavigationController.m; sourceTree = "<group>"; };
+		0399D26B1BDA1AD800CEF303 /* XBTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBTabBarButton.h; sourceTree = "<group>"; };
+		0399D26C1BDA1AD800CEF303 /* XBTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBTabBarButton.m; sourceTree = "<group>"; };
 		03A92B051BD75DDD00ECACE2 /* xinlang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xinlang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A92B1E1BD75DDD00ECACE2 /* xinlangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xinlangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A92B231BD75DDD00ECACE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -189,6 +192,8 @@
 			children = (
 				0327CD091BD93FF100B71B69 /* XBTabBar.h */,
 				0327CD0A1BD93FF100B71B69 /* XBTabBar.m */,
+				0399D26B1BDA1AD800CEF303 /* XBTabBarButton.h */,
+				0399D26C1BDA1AD800CEF303 /* XBTabBarButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -432,6 +437,7 @@
 				0399D2671BDA0CA600CEF303 /* XBNavigationController.m in Sources */,
 				0327CD1E1BD93FF100B71B69 /* AppDelegate.m in Sources */,
 				0399D2611BD9D7B200CEF303 /* XBSearchBar.m in Sources */,
+				0399D26D1BDA1AD800CEF303 /* XBTabBarButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

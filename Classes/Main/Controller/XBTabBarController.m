@@ -11,41 +11,72 @@
 #import "XBTabBar.h"
 #import "XBDiscoverController.h"
 
-@interface XBTabBarController ()
-
+@interface XBTabBarController () <XBTabBarDelegate>
+@property (nonatomic,strong)NSMutableArray *items;
 @end
 
 @implementation XBTabBarController
 
 //个人是这么理解的 bar的上层是tabbarcontroller 先把bar创建好，然后替换上，这个时候bar完全没有被使用，替换了后，xbtabbar的layoutsubviews才开始运行，这里肯定对tabbar做了赋值操作。所以在那里有4个subview
 
+-(NSMutableArray *)items{
+    if (_items == nil) {
+        _items = [NSMutableArray array];
+    }
+    return _items;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSLog(@"fun:%s 111 ",__func__);
+  //  NSLog(@"fun:%s 111 ",__func__);
     [self addAllChildViewController];
+//    XBTabBar *bar = [[XBTabBar alloc] initWithFrame:self.tabBar.frame];
+//        NSLog(@"fun:%s 222 ",__func__);
+//    UITabBar *bar1 = [[UITabBar alloc]init];
+//    [self setValue:bar forKeyPath:@"tabBar"];
+//         NSLog(@"fun:%s 333 ",__func__);
+    [self setUpTabBar];
+}
+
+-(void)setUpTabBar
+{
     XBTabBar *bar = [[XBTabBar alloc] initWithFrame:self.tabBar.frame];
-        NSLog(@"fun:%s 222 ",__func__);
-    UITabBar *bar1 = [[UITabBar alloc]init];
-    [self setValue:bar forKeyPath:@"tabBar"];
-         NSLog(@"fun:%s 333 ",__func__);
+    bar.backgroundColor = [UIColor whiteColor];
+    bar.delegate = self;
+    bar.items = self.items;
+    [self.view addSubview:bar];
+    [self.tabBar removeFromSuperview];
+    
+    
+}
+
+-(void)tabBar:(UITabBar *)tabBar didClickButton:(NSInteger)index
+{
+    self.selectedIndex = index;
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:YES];
 }
 
 
 //不清楚这个是在干啥
 
-+ (void)initialize{
-    
-    // 获取当前这个类下面的所有tabBarItem
-    UITabBarItem *item = [UITabBarItem appearanceWhenContainedIn:self, nil];
-    
-    NSMutableDictionary *att = [NSMutableDictionary dictionary];
-    att[NSForegroundColorAttributeName] = [UIColor orangeColor];
-    //    [att setObject:[UIColor orangeColor] forKey:NSForegroundColorAttributeName];
-    
-    [item setTitleTextAttributes:att forState:UIControlStateSelected];
-    
-}
+//+ (void)initialize{
+//    
+//    // 获取当前这个类下面的所有tabBarItem
+//    UITabBarItem *item = [UITabBarItem appearanceWhenContainedIn:self, nil];
+//    
+//    NSMutableDictionary *att = [NSMutableDictionary dictionary];
+//    att[NSForegroundColorAttributeName] = [UIColor orangeColor];
+//    //    [att setObject:[UIColor orangeColor] forKey:NSForegroundColorAttributeName];
+//    
+//    [item setTitleTextAttributes:att forState:UIControlStateSelected];
+//    
+//}
 
 
 #pragma 再次进行封装
@@ -82,7 +113,10 @@
     controller.tabBarItem.title = name;
     controller.tabBarItem.image = [UIImage imageWithOriginalName:image];//这里用的就是真实地颜色了`
     controller.tabBarItem.selectedImage = [UIImage imageWithOriginalName:selectImage];;
-    controller.tabBarItem.badgeValue = [NSString stringWithFormat:@"%ld",value];
+    //controller.tabBarItem.badgeValue = [NSString stringWithFormat:@"%ld",value];
+    NSLog(@"test");
+    [self.items addObject:controller.tabBarItem];
+    
 }
 
 
